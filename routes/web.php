@@ -34,3 +34,6 @@ Route::get('/ictupdate', function () {
 Route::get('/ictdelete', function () {
     return view('ictdelete');
 });
+Route::get('/profile', function () {
+    return view('profile');
+});

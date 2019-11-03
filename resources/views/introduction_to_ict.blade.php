@@ -183,8 +183,8 @@ padding-bottom: 10px;
                             <h6 style="color: white; text-align: left;"><b>COURSE NO: CSC-101</b></h6>
                             <h6 style="color: white; text-align: left;"><b>CREDITS HOURS: 3</b></h6>
                         </div>
-                    <div class="col-lg-4 col-md-2"></div>
-                        <div class="col-lg-4 col-md-2 ">
+                    <div class="col-lg-3 col-md-1"></div>
+                        <div class="col-lg-5 col-md-3 ">
                             <div class="row">
                             <div class="con bg-info text-center navrad pr-3 pl-3 mt-1 ml-3">
                             <a href="#"><img src="images/home-icon.png"class="inage mt-2" alt="no" width="40px" height="40px">
@@ -269,6 +269,13 @@ padding-bottom: 10px;
         
                                     </div>
                             <!-- end view -->
+                             <!-- PROFILE-->
+                             <div class="con bg-light text-center navrad pr-3 pl-3 ml-3 mt-1">
+                              <a href="/profile"><img src="images/profile.png"class="inage mt-2" alt="no" width="40px" height="40px">
+                                  <p style="color: black;">Profile</p></a>
+  
+                              </div>
+                      <!-- end PROFILE-->
 
                               <!-- logout -->
                               <div class="con bg-light text-center navrad pr-3 pl-3 ml-3 mt-1">
