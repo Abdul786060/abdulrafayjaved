@@ -106,7 +106,7 @@ body{margin:0;
         /* It's possible to hide the image if the screen becomes too small */
         .hero {
           min-width: 15%;
-          height: 470%;
+          height: 250%;
         }
         .logoo{
           width: 300px;
@@ -146,13 +146,41 @@ padding-bottom: 10px;
   border-radius: 7px;
 }
 /* table end */
+
+/* footer */
+.foot{
+  background-color: rgb(30, 30, 117, 0.9);
+}
+
+/* footer end */
+.con:hover{
+  background-color:#17a2b8;
+  
+}
+.con:hover p{
+ 
+  color:white;
+}
+.con{
+  background-color:#f8f9fa;
+  
+}
+.con p{
+  color:black;
+}
             </style>
             <!-- style -->
         </head>
         <body>
-           <!-- header -->
-         
-          <!-- header end -->
+          <!-- header -->
+   <div class="container-fluid bg-info p-1">
+   <div class="container mt-2">
+   <p style="color: white;"><b>Welcome: Abdul Rafay Javed</b></p>
+   
+   </div>
+   </div>
+ 
+  <!-- header end -->
             <div class="container-fluid hero">
           
          
@@ -183,12 +211,20 @@ padding-bottom: 10px;
                                     <h6 style="color: white; text-align: left;"><b>COURSE NO: CSC-101</b></h6>
                                     <h6 style="color: white; text-align: left;"><b>CREDITS HOURS: 3</b></h6>
                                 </div>
-                            <div class="col-lg-5 col-md-3"></div>
-                                <div class="col-lg-3 col-md-1 ">
+                            <div class="col-lg-3 col-md-1"></div>
+                                <div class="col-lg-5 col-md-2 ">
                                     <div class="row">
-                                    <div class="con bg-light text-center navrad pr-3 pl-3 mt-1 ml-3">
-                                    <a href="/introduction_to_ict"><img src="images/home-icon.png"class="inage mt-2" alt="no" width="40px" height="40px">
-                                        <p style="color: black;">Home</p></a>
+                                     <!-- subjct -->
+                             <div class="con text-center navrad pr-3 pl-3 ml-3 mt-1">
+                                    <a style="text-decoration:none" href="/semester"><img src="images/book.png"class="inage mt-2" alt="no" width="40px" height="40px">
+                                        <p>Subject</p></a>
+        
+                                    </div>
+                            <!-- end subject -->
+                                    <!-- home -->
+                                    <div class="con text-center navrad pr-3 pl-3 mt-1 ml-3">
+                                    <a style="text-decoration:none" href="/introduction_to_ict"><img src="images/home-icon.png"class="inage mt-2" alt="no" width="40px" height="40px">
+                                        <p>Home</p></a>
         
                                     </div>
                                     <!-- last end -->
@@ -197,16 +233,24 @@ padding-bottom: 10px;
         
                                       <!-- view -->
                                       <div class="con bg-info text-center navrad pr-3 pl-3 ml-3 mt-1">
-                                            <a href="#"><img src="images/vv.png"class="inage mt-2" alt="no" width="40px" height="40px">
+                                            <a style="text-decoration:none" href="#"><img src="images/vv.png"class="inage mt-2" alt="no" width="40px" height="40px">
                                                 <p style="color: white;">View</p></a>
                 
                                             </div>
                                     <!-- end view -->
+                                     
+                                           <!-- PROFILE-->
+                             <div class="con text-center navrad pr-3 pl-3 ml-3 mt-1">
+                              <a style="text-decoration:none" href="/profile"><img src="images/profile.png"class="inage mt-2" alt="no" width="40px" height="40px">
+                                  <p>Profile</p></a>
+  
+                              </div>
+                      <!-- end PROFILE-->
         
                                       <!-- logout -->
-                                      <div class="con bg-light text-center navrad pr-3 pl-3 ml-3 mt-1">
-                                            <a href="/sofware_engineering"><img src="images/logout.png"class="inage mt-2" alt="no" width="40px" height="40px">
-                                                <p style="color: black;">Logout</p></a>
+                                      <div class="con text-center navrad pr-3 pl-3 ml-3 mt-1">
+                                            <a style="text-decoration:none" href="/sofware_engineering"><img src="images/logout.png"class="inage mt-2" alt="no" width="40px" height="40px">
+                                                <p>Logout</p></a>
                 
                                             </div>
                                     <!-- end logout -->
@@ -233,7 +277,7 @@ padding-bottom: 10px;
                               <tr><h5 class="text-center bg-info firstr" style="color: white;"><b>Edit Your Resourses</b></h5></tr>
                               <tr class="text-center bg-light headtable" >
                                   <th style="background-color: rgb(20, 16, 51);">#</th>
-                                <th style="background-color: rgb(20, 16, 51);">Teacher Name</th>
+                                
                                 <th style="background-color: rgb(20, 16, 51);">Topic Name</th>
                                
                                 <th style="background-color: rgb(20, 16, 51);">Update</th>
@@ -244,7 +288,7 @@ padding-bottom: 10px;
                             <tbody>
                                 <tr class="text-center bg-light">
                                     <td>1</td>
-                                  <td> ali</td>
+                                  
                                   <td>HexaDecimal into Binary</td>
                                  
      <!-- update -->
@@ -273,7 +317,7 @@ padding-bottom: 10px;
         
                                 <tr class="text-center" style="background-color: white;">
                                     <td> 2</td>
-                                    <td>Dr. Habib ur Rehman</td>
+                                    
                                     <td>HexaDecimal into Binary</td>
                                     
                                    <!-- update -->
@@ -298,7 +342,7 @@ padding-bottom: 10px;
                                   <tr class="text-center bg-light">
 
                                       <td> 3</td>
-                                      <td>Dr. Habib ur Rehman</td>
+                                     
                                       <td>HexaDecimal into Binary</td>
                                       
                                     <!-- update -->
@@ -323,7 +367,7 @@ padding-bottom: 10px;
         
                                     <tr class="text-center" style="background-color: white;">
                                         <td> 4</td>
-                                        <td>Dr. Habib ur Rehman</td>
+                                      
                                         <td>HexaDecimal into Binary</td>
                                         
                                        <!-- update -->
@@ -348,7 +392,7 @@ padding-bottom: 10px;
         
                                       <tr class="text-center bg-light">
                                           <td> 5</td>
-                                          <td><b>Dr. Habib ur Rehman</b></td>
+                                         
                                           <td><b>HexaDecimal into Binary</b></td>
                                          
                                          <!-- update -->
@@ -372,7 +416,7 @@ padding-bottom: 10px;
         
                                         <tr class="text-center" style="background-color: white;">
                                             <td> 6</td>  
-                                          <td>Dr. Habib ur Rehman</td>
+                                          
                                           <td>HexaDecimal into Binary</td>
                                           
                                           <!-- update -->
@@ -396,7 +440,7 @@ padding-bottom: 10px;
         
                                         <tr class="text-center bg-light">
                                             <td> 7</td>
-                                          <td><b>Dr. Habib ur Rehman</b></td>
+                                         
                                           <td><b>HexaDecimal into Binary</b></td>
                                         
                                           <!-- update -->
@@ -421,7 +465,7 @@ padding-bottom: 10px;
                             <tfoot>
                                 <tr class="text-center bg-light headtable" >
                                     <th style="background-color: rgb(20, 16, 51);">#</th>
-                                    <th style="background-color: rgb(20, 16, 51);">Teacher Name</th>
+                                    
                                     <th style="background-color: rgb(20, 16, 51);">Topic Name</th>
                                    
                                     <th style="background-color: rgb(20, 16, 51);">Update</th>
@@ -448,8 +492,8 @@ padding-bottom: 10px;
         $(document).ready(function() {
             var table = $('#example').DataTable( {
             
-              "iDisplayLength": 7,
-              "lengthMenu": [[3, 5 , 7], [3, 5, 7]],
+              "iDisplayLength": 5,
+              "lengthMenu": [[3, 5], [3, 5]],
                 rowReorder: {
                     selector: 'td:nth-child(2)'
                 },
@@ -477,14 +521,16 @@ $('#myModall').on('show.bs.modal', function () {
         
         <!-- script link end -->
 
-        <footer>
-            <div class="container-fluid p-1">
-                <div class="container">
-                    <div class="col-lg-12 col-md-6 mt-2 text-center">
-                          <p style="color: white;"><b>Comsats University Islammabad.</b></p>
-                    </div>
-                </div>
+       
+<footer>
+    <div class="container-fluid p-1 foot">
+        <div class="container">
+            <div class="col-lg-12 col-md-6 mt-2 text-center">
+            <p style="color: white;"><b>COMSATS UNIVERSITY ISLAMMABAD.<BR>SE STUDENT HELP DESK.</b></p>
+                  
             </div>
-        </footer>
+        </div>
+    </div>
+</footer>
         </body>
         </html>

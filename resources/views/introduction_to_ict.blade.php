@@ -34,9 +34,10 @@ body{margin:0;
     right: 0;
     top: 0;
     bottom: 0;
-    background-color: rgb(4, 4, 117);
+
     }
     .hero{
+
     background-image: url("images/a.jpg");
     background-size:cover;
     background-position:center;
@@ -94,10 +95,14 @@ body{margin:0;
         .hero {
           min-width: 30%;
         
-          height: 700%;
+          height: 400%;
         }
         .logoo{
           width: 300px;
+        }
+        .logoo1{
+          width: 300px;
+          float:left;
         }
     }
     
@@ -106,12 +111,16 @@ body{margin:0;
         /* It's possible to hide the image if the screen becomes too small */
         .hero {
           min-width: 15%;
-          height: 470%;
+          height: 300%;
         }
         .logoo{
           width: 300px;
         }
-    
+        .logoo1{
+          width: 300px;
+         
+          
+        }
     
     }
     
@@ -146,11 +155,42 @@ padding-bottom: 10px;
   border-radius: 7px;
 }
 /* table end */
+/* footer */
+.foot{
+  background-color: rgb(30, 30, 117, 0.9);
+}
+/* footer end */
+.con:hover{
+  background-color:#17a2b8;
+  
+}
+.con:hover p{
+ 
+  color:white;
+}
+.con{
+  background-color:#f8f9fa;
+  
+}
+.con p{
+  color:black;
+}
+.logoo1{
+  float:right;
+}
+
+ 
   </style>
     <!-- style -->
 </head>
 <body>
    <!-- header -->
+   <div class="container-fluid bg-info p-1">
+   <div class="container mt-2">
+   <p style="color: white;"><b>Welcome: Abdul Rafay Javed</b></p>
+   
+   </div>
+   </div>
  
   <!-- header end -->
     <div class="container-fluid hero">
@@ -164,9 +204,9 @@ padding-bottom: 10px;
                   <img src="images/logo.png" class="logoo" alt="no"/>
         
                 </div>
-              <div class="col-sm-6 mt-5 text-right">
+              <div class="col-sm-6 mt-5">
         
-                  <img src="images/help.png" class="logoo" alt="no"/>
+                  <img src="images/help.png" class="logoo1" alt="no"/>
         
               </div>
               
@@ -183,19 +223,29 @@ padding-bottom: 10px;
                             <h6 style="color: white; text-align: left;"><b>COURSE NO: CSC-101</b></h6>
                             <h6 style="color: white; text-align: left;"><b>CREDITS HOURS: 3</b></h6>
                         </div>
-                    <div class="col-lg-3 col-md-1"></div>
-                        <div class="col-lg-5 col-md-3 ">
+                    <div class="col-lg-2 col-md-1"></div>
+                        <div class="col-lg-6 col-md-3 ">
                             <div class="row">
+                            
+                            <!-- home start -->
                             <div class="con bg-info text-center navrad pr-3 pl-3 mt-1 ml-3">
-                            <a href="#"><img src="images/home-icon.png"class="inage mt-2" alt="no" width="40px" height="40px">
+                            <a style="text-decoration:none" href="#"><img src="images/home-icon.png"class="inage mt-2" alt="no" width="40px" height="40px">
                                 <p style="color: white;">Home</p></a>
 
                             </div>
+
                             <!-- last end -->
+                             <!-- subjct -->
+                             <div class="con text-center navrad pr-3 pl-3 ml-3 mt-1">
+                                    <a style="text-decoration:none" href="/semester"><img src="images/book.png"class="inage mt-2" alt="no" width="40px" height="40px">
+                                        <p>Subject</p></a>
+        
+                                    </div>
+                            <!-- end subject -->
                             <!-- insertion -->
-                            <div class="con bg-light text-center navrad pr-3 pl-3 ml-3 mt-1">
-                                    <a href="#" data-toggle="modal" data-target="#myModal"><img src="images/insert.png"class="inage mt-2" alt="no" width="40px" height="40px">
-                                        <p style="color: black;">Insert</p></a>
+                            <div class="con text-center navrad pr-3 pl-3 ml-3 mt-1">
+                                    <a style="text-decoration:none" href="#" data-toggle="modal" data-target="#myModal"><img src="images/insert.png"class="inage mt-2" alt="no" width="40px" height="40px">
+                                        <p >Insert</p></a>
 
 
                                         <!-- modal start -->
@@ -222,9 +272,7 @@ padding-bottom: 10px;
                                                 <div class="form-group">
                                                         <input type="text" class="form-control" value="Introduction to ICT" readonly>
                                                     </div>      
-                                                <div class="form-group">
-                                                    <input type="text" class="form-control" placeholder="Teacher Name" required="required">
-                                                </div>
+                                               
                                                 <div class="form-group">
                                                     <input type="text" class="form-control" placeholder="Topic Name" required="required">
                                                 </div>
@@ -263,24 +311,24 @@ padding-bottom: 10px;
                             <!-- end insertion -->
 
                               <!-- view -->
-                              <div class="con bg-light text-center navrad pr-3 pl-3 ml-3 mt-1">
-                                    <a href="/ictvieww"><img src="images/vv.png"class="inage mt-2" alt="no" width="40px" height="40px">
-                                        <p style="color: black;">View</p></a>
+                              <div class="con text-center navrad pr-3 pl-3 ml-3 mt-1">
+                                    <a style="text-decoration:none" href="/ictvieww"><img src="images/vv.png"class="inage mt-2" alt="no" width="40px" height="40px">
+                                        <p> View</p></a>
         
                                     </div>
                             <!-- end view -->
                              <!-- PROFILE-->
-                             <div class="con bg-light text-center navrad pr-3 pl-3 ml-3 mt-1">
-                              <a href="/profile"><img src="images/profile.png"class="inage mt-2" alt="no" width="40px" height="40px">
-                                  <p style="color: black;">Profile</p></a>
+                             <div class="con text-center navrad pr-3 pl-3 ml-3 mt-1">
+                              <a style="text-decoration:none" href="/profile"><img src="images/profile.png"class="inage mt-2" alt="no" width="40px" height="40px">
+                                  <p>Profile</p></a>
   
                               </div>
                       <!-- end PROFILE-->
 
                               <!-- logout -->
-                              <div class="con bg-light text-center navrad pr-3 pl-3 ml-3 mt-1">
-                                    <a href="/sofware_engineering"><img src="images/logout.png"class="inage mt-2" alt="no" width="40px" height="40px">
-                                        <p style="color: black;">Logout</p></a>
+                              <div class="con text-center navrad pr-3 pl-3 ml-3 mt-1">
+                                    <a style="text-decoration:none" href="/sofware_engineering"><img src="images/logout.png"class="inage mt-2" alt="no" width="40px" height="40px">
+                                        <p>Logout</p></a>
         
                                     </div>
                             <!-- end logout -->
@@ -306,7 +354,7 @@ padding-bottom: 10px;
                       <!-- end upper change -->
                       <tr><h5 class="text-center bg-info firstr" style="color: white;"><b>Helping Resources</b></h5></tr>
                       <tr class="text-center bg-light headtable" >
-                        <th style="background-color: rgb(20, 16, 51);">Teacher Name</th>
+                      
                         <th style="background-color: rgb(20, 16, 51);">Topic Name</th>
                         <th style="background-color: rgb(20, 16, 51);">Description</th>
                         <th style="background-color: rgb(20, 16, 51);">Link</th>
@@ -316,11 +364,12 @@ padding-bottom: 10px;
 
                     <tbody>
                         <tr class="text-center bg-light">
-                          <td> ali</td>
+                         
                           <td>HexaDecimal into Binary</td>
-                          <td>In this file we have some imported example which is repeated in last few papers.</td>
+                          <td>In this file we have some imported example which is repeated in last few papers.
+                        </td>
                           <td>None</td>
-                          <td><a href="#"><br>
+                          <td><a href="#" style="text-decoration:none;"><br>
                             <img src="images/download.png" alt="no" width="25px" height="25px"><p style="color: black;">Download</p>
                           </a></td>
                         </tr>
@@ -328,7 +377,7 @@ padding-bottom: 10px;
                         
 
                         <tr class="text-center" style="background-color: white;">
-                            <td>Dr. Habib ur Rehman</td>
+                          
                             <td>HexaDecimal into Binary</td>
                             <td>In this file we have some imported example which is repeated in last few papers.</td>
                             <td>None</td>
@@ -338,7 +387,7 @@ padding-bottom: 10px;
                           </tr>
 
                           <tr class="text-center bg-light">
-                              <td>Dr. Habib ur Rehman</td>
+                             
                               <td>HexaDecimal into Binary</td>
                               <td>In this file we have some imported example which is repeated in last few papers.
                                 </td>
@@ -350,7 +399,7 @@ padding-bottom: 10px;
 
 
                             <tr class="text-center" style="background-color: white;">
-                                <td>Dr. Habib ur Rehman</td>
+                               
                                 <td>HexaDecimal into Binary</td>
                                 <td>In this file we have some imported example which is repeated in last few papers.</td>
                                 <td>None</td>
@@ -361,7 +410,7 @@ padding-bottom: 10px;
 
 
                               <tr class="text-center bg-light">
-                                  <td><b>Dr. Habib ur Rehman</b></td>
+                                 
                                   <td><b>HexaDecimal into Binary</b></td>
                                   <td><b>In this file we have some imported example which is repeated in last few papers.</b></td>
                                   <td><b>None</b></td>
@@ -371,7 +420,7 @@ padding-bottom: 10px;
                                 </tr>
 
                                 <tr class="text-center" style="background-color: white;">
-                                  <td>Dr. Habib ur Rehman</td>
+                                 
                                   <td>HexaDecimal into Binary</td>
                                   <td>In this file we have some imported example which is repeated in last few papers.</td>
                                   <td>None</td>
@@ -381,7 +430,7 @@ padding-bottom: 10px;
                                 </tr>
 
                                 <tr class="text-center bg-light">
-                                  <td><b>Dr. Habib ur Rehman</b></td>
+                                 
                                   <td><b>HexaDecimal into Binary</b></td>
                                   <td><b>In this file we have some imported example which is repeated in last few papers.</b></td>
                                   <td><b>None</b></td>
@@ -392,7 +441,7 @@ padding-bottom: 10px;
                     </tbody>
                     <tfoot>
                         <tr class="text-center bg-light headtable" >
-                            <th style="background-color: rgb(20, 16, 51);">Teacher Name</th>
+                           
                             <th style="background-color: rgb(20, 16, 51);">Topic Name</th>
                             <th style="background-color: rgb(20, 16, 51);">Description</th>
                             <th style="background-color: rgb(20, 16, 51);">Link</th>
@@ -419,8 +468,8 @@ padding-bottom: 10px;
 $(document).ready(function() {
     var table = $('#example').DataTable( {
     
-      "iDisplayLength": 7,
-      "lengthMenu": [[3, 5 , 7], [3, 5, 7]],
+      "iDisplayLength": 5,
+      "lengthMenu": [[3, 5], [3, 5]],
         rowReorder: {
             selector: 'td:nth-child(2)'
         },
@@ -433,10 +482,11 @@ $(document).ready(function() {
 <!-- script link end -->
 
 <footer>
-    <div class="container-fluid p-1">
+    <div class="container-fluid p-1 foot">
         <div class="container">
             <div class="col-lg-12 col-md-6 mt-2 text-center">
-                  <p style="color: white;"><b>Comsats University Islammabad.</b></p>
+            <p style="color: white;"><b>COMSATS UNIVERSITY ISLAMMABAD.<BR>SE STUDENT HELP DESK.</b></p>
+                  
             </div>
         </div>
     </div>

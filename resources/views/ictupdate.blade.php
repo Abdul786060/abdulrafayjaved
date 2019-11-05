@@ -122,10 +122,39 @@ body{margin:0;
 .navrad{
     border-radius: 7px;
 }
+/* footer */
+.foot{
+  background-color: rgb(30, 30, 117, 0.9);
+}
+/* footer end */
+.con:hover{
+  background-color:#17a2b8;
+  
+}
+.con:hover p{
+ 
+  color:white;
+}
+.con{
+  background-color:#f8f9fa;
+  
+}
+.con p{
+  color:black;
+}
             </style>
             <!-- style -->
         </head>
     <body>
+     <!-- header -->
+   <div class="container-fluid bg-info p-1">
+   <div class="container mt-2">
+   <p style="color: white;"><b>Welcome: Abdul Rafay Javed</b></p>
+   
+   </div>
+   </div>
+ 
+  <!-- header end -->
            
 
             <div class="container-fluid hero">
@@ -156,35 +185,52 @@ body{margin:0;
                                         <h6 style="color: white; text-align: left;"><b>COURSE NO: CSC-101</b></h6>
                                         <h6 style="color: white; text-align: left;"><b>CREDITS HOURS: 3</b></h6>
                                     </div>
-                                <div class="col-lg-4 col-md-2"></div>
-                                    <div class="col-lg-4 col-md-2 ">
+                                <div class="col-lg-2 col-md-1"></div>
+                                    <div class="col-lg-6 col-md-3 ">
                                         <div class="row">
-                                        <div class="con bg-light text-center navrad pr-3 pl-3 mt-1 ml-3">
-                                        <a href="/introduction_to_ict"><img src="images/home-icon.png"class="inage mt-2" alt="no" width="40px" height="40px">
-                                            <p style="color: black;">Home</p></a>
+                                                  <!-- subjct -->
+                             <div class="con text-center navrad pr-3 pl-3 ml-3 mt-1">
+                                    <a style="text-decoration:none" href="/semester"><img src="images/book.png"class="inage mt-2" alt="no" width="40px" height="40px">
+                                        <p>Subject</p></a>
+        
+                                    </div>
+                            <!-- end subject -->
+                                        <!-- home -->
+
+                                        <div class="con text-center navrad pr-3 pl-3 mt-1 ml-3">
+                                        <a style="text-decoration:none" href="/introduction_to_ict"><img src="images/home-icon.png"class="inage mt-2" alt="no" width="40px" height="40px">
+                                            <p>Home</p></a>
             
                                         </div>
                                         <!-- last end -->
                                         <!-- update -->
                                         <div class="con bg-info text-center navrad pr-3 pl-3 ml-3 mt-1">
-                                                <a href="#"><img src="images/update.jpg"class="inage mt-2" alt="no" width="40px" height="40px">
+                                                <a style="text-decoration:none" href="#"><img src="images/update.jpg"class="inage mt-2" alt="no" width="40px" height="40px">
                                                     <p style="color: white;">Update</p></a>
                     
                                                 </div>
                                         <!-- end update-->
             
                                           <!-- view -->
-                                          <div class="con bg-light text-center navrad pr-3 pl-3 ml-3 mt-1">
-                                                <a href="/ictvieww"><img src="images/vv.png"class="inage mt-2" alt="no" width="40px" height="40px">
-                                                    <p style="color: black;">View</p></a>
+                                          <div class="con text-center navrad pr-3 pl-3 ml-3 mt-1">
+                                                <a style="text-decoration:none" href="/ictvieww"><img src="images/vv.png"class="inage mt-2" alt="no" width="40px" height="40px">
+                                                    <p>View</p></a>
                     
                                                 </div>
                                         <!-- end view -->
+                                       
+                                               <!-- PROFILE-->
+                             <div class="con text-center navrad pr-3 pl-3 ml-3 mt-1">
+                              <a style="text-decoration:none" href="/profile"><img src="images/profile.png"class="inage mt-2" alt="no" width="40px" height="40px">
+                                  <p>Profile</p></a>
+  
+                              </div>
+                      <!-- end PROFILE-->
             
                                           <!-- logout -->
-                                          <div class="con bg-light text-center navrad pr-3 pl-3 ml-3 mt-1">
-                                                <a href="/sofware_engineering"><img src="images/logout.png"class="inage mt-2" alt="no" width="40px" height="40px">
-                                                    <p style="color: black;">Logout</p></a>
+                                          <div class="con text-center navrad pr-3 pl-3 ml-3 mt-1">
+                                                <a style="text-decoration:none" href="/sofware_engineering"><img src="images/logout.png"class="inage mt-2" alt="no" width="40px" height="40px">
+                                                    <p>Logout</p></a>
                     
                                                 </div>
                                         <!-- end logout -->
@@ -222,9 +268,7 @@ body{margin:0;
                                     <div class="form-group mt-4">
                                             <input type="text" class="form-control" value="Introduction to ICT" readonly>
                                         </div>      
-                                    <div class="form-group">
-                                        <input type="text" class="form-control" placeholder="Teacher Name" required="required">
-                                    </div>
+                                   
                                     <div class="form-group">
                                         <input type="text" class="form-control" placeholder="Topic Name" required="required">
                                     </div>
@@ -258,16 +302,17 @@ body{margin:0;
                           <!-- hero-overlay -->
                           </div>
                           <!-- hero -->
-
                           <footer>
-                              <div class="container-fluid p-1">
-                                  <div class="container">
-                                      <div class="col-lg-12 col-md-6 mt-2 text-center">
-                                            <p style="color: white;"><b>Comsats University Islammabad.</b></p>
-                                      </div>
-                                  </div>
-                              </div>
-                          </footer>
+    <div class="container-fluid p-1 foot">
+        <div class="container">
+            <div class="col-lg-12 col-md-6 mt-2 text-center">
+            <p style="color: white;"><b>COMSATS UNIVERSITY ISLAMMABAD.<BR>SE STUDENT HELP DESK.</b></p>
+                  
+            </div>
+        </div>
+    </div>
+</footer>
+
     </body>
 
     </html>
